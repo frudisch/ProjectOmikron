@@ -1,21 +1,21 @@
 # ProjectOmikron
 
 # Architektur
- -> Android / IOS App
- -> Server-Backend (Spray.io)
- -> Handheld (Android)
+ -> Android / IOS App <br>
+ -> Server-Backend (Spray.io) <br>
+ -> Handheld (Android) <br>
  
 ## Android (Kotlin) / IOS App
- -> Parkticket lösen
- -> Bezahlen mittels mehreren Möglichkeiten
- -> Parkplatzsuche
+ -> Parkticket lösen <br>
+ -> Bezahlen mittels mehreren Möglichkeiten <br>
+ -> Parkplatzsuche <br>
  
 ## Server-Backend
- -> Parkplatz-Map (Meta)
- -> Weiterleitung der Bezahlung (Paypal, payed SMS)
- -> Überprüfung eines Parkenden
+ -> Parkplatz-Map (Meta) <br>
+ -> Weiterleitung der Bezahlung (Paypal, payed SMS) <br>
+ -> Überprüfung eines Parkenden <br>
  
 ## Handheld 
- -> Analyse Kennzeichen über Kamera
- -> OCR erzeugt Zeichenfolge
- -> Überprüfung durch Backend
+ -> Analyse Kennzeichen über Kamera <br>
+ -> OCR erzeugt Zeichenfolge <br>
+ -> Überprüfung durch Backend <br>
