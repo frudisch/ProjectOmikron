@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B53D2B761D3CECE3008EED91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D2B751D3CECE3008EED91 /* AppDelegate.swift */; };
+		B53D2B781D3CECE3008EED91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D2B771D3CECE3008EED91 /* ViewController.swift */; };
+		B53D2B7B1D3CECE3008EED91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53D2B791D3CECE3008EED91 /* Main.storyboard */; };
+		B53D2B7D1D3CECE3008EED91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53D2B7C1D3CECE3008EED91 /* Assets.xcassets */; };
+		B53D2B801D3CECE3008EED91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53D2B7E1D3CECE3008EED91 /* LaunchScreen.storyboard */; };
+		B53D2B8B1D3CECE3008EED91 /* OmikroniOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D2B8A1D3CECE3008EED91 /* OmikroniOSAppTests.swift */; };
+		B53D2B961D3CECE3008EED91 /* OmikroniOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D2B951D3CECE3008EED91 /* OmikroniOSAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B53D2B871D3CECE3008EED91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53D2B6A1D3CECE3008EED91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53D2B711D3CECE3008EED91;
+			remoteInfo = OmikroniOSApp;
+		};
+		B53D2B921D3CECE3008EED91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53D2B6A1D3CECE3008EED91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53D2B711D3CECE3008EED91;
+			remoteInfo = OmikroniOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B53D2B721D3CECE3008EED91 /* OmikroniOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmikroniOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53D2B751D3CECE3008EED91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B53D2B771D3CECE3008EED91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B53D2B7A1D3CECE3008EED91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B53D2B7C1D3CECE3008EED91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B53D2B7F1D3CECE3008EED91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B53D2B811D3CECE3008EED91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53D2B861D3CECE3008EED91 /* OmikroniOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmikroniOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53D2B8A1D3CECE3008EED91 /* OmikroniOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikroniOSAppTests.swift; sourceTree = "<group>"; };
+		B53D2B8C1D3CECE3008EED91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53D2B911D3CECE3008EED91 /* OmikroniOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmikroniOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53D2B951D3CECE3008EED91 /* OmikroniOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikroniOSAppUITests.swift; sourceTree = "<group>"; };
+		B53D2B971D3CECE3008EED91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53D2B6F1D3CECE3008EED91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D2B831D3CECE3008EED91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D2B8E1D3CECE3008EED91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53D2B691D3CECE3008EED91 = {
+			isa = PBXGroup;
+			children = (
+				B53D2B741D3CECE3008EED91 /* OmikroniOSApp */,
+				B53D2B891D3CECE3008EED91 /* OmikroniOSAppTests */,
+				B53D2B941D3CECE3008EED91 /* OmikroniOSAppUITests */,
+				B53D2B731D3CECE3008EED91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B53D2B731D3CECE3008EED91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53D2B721D3CECE3008EED91 /* OmikroniOSApp.app */,
+				B53D2B861D3CECE3008EED91 /* OmikroniOSAppTests.xctest */,
+				B53D2B911D3CECE3008EED91 /* OmikroniOSAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53D2B741D3CECE3008EED91 /* OmikroniOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				B53D2B751D3CECE3008EED91 /* AppDelegate.swift */,
+				B53D2B771D3CECE3008EED91 /* ViewController.swift */,
+				B53D2B791D3CECE3008EED91 /* Main.storyboard */,
+				B53D2B7C1D3CECE3008EED91 /* Assets.xcassets */,
+				B53D2B7E1D3CECE3008EED91 /* LaunchScreen.storyboard */,
+				B53D2B811D3CECE3008EED91 /* Info.plist */,
+			);
+			path = OmikroniOSApp;
+			sourceTree = "<group>";
+		};
+		B53D2B891D3CECE3008EED91 /* OmikroniOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B53D2B8A1D3CECE3008EED91 /* OmikroniOSAppTests.swift */,
+				B53D2B8C1D3CECE3008EED91 /* Info.plist */,
+			);
+			path = OmikroniOSAppTests;
+			sourceTree = "<group>";
+		};
+		B53D2B941D3CECE3008EED91 /* OmikroniOSAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B53D2B951D3CECE3008EED91 /* OmikroniOSAppUITests.swift */,
+				B53D2B971D3CECE3008EED91 /* Info.plist */,
+			);
+			path = OmikroniOSAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B53D2B711D3CECE3008EED91 /* OmikroniOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53D2B9A1D3CECE3008EED91 /* Build configuration list for PBXNativeTarget "OmikroniOSApp" */;
+			buildPhases = (
+				B53D2B6E1D3CECE3008EED91 /* Sources */,
+				B53D2B6F1D3CECE3008EED91 /* Frameworks */,
+				B53D2B701D3CECE3008EED91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OmikroniOSApp;
+			productName = OmikroniOSApp;
+			productReference = B53D2B721D3CECE3008EED91 /* OmikroniOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B53D2B851D3CECE3008EED91 /* OmikroniOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53D2B9D1D3CECE3008EED91 /* Build configuration list for PBXNativeTarget "OmikroniOSAppTests" */;
+			buildPhases = (
+				B53D2B821D3CECE3008EED91 /* Sources */,
+				B53D2B831D3CECE3008EED91 /* Frameworks */,
+				B53D2B841D3CECE3008EED91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53D2B881D3CECE3008EED91 /* PBXTargetDependency */,
+			);
+			name = OmikroniOSAppTests;
+			productName = OmikroniOSAppTests;
+			productReference = B53D2B861D3CECE3008EED91 /* OmikroniOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B53D2B901D3CECE3008EED91 /* OmikroniOSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53D2BA01D3CECE3008EED91 /* Build configuration list for PBXNativeTarget "OmikroniOSAppUITests" */;
+			buildPhases = (
+				B53D2B8D1D3CECE3008EED91 /* Sources */,
+				B53D2B8E1D3CECE3008EED91 /* Frameworks */,
+				B53D2B8F1D3CECE3008EED91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53D2B931D3CECE3008EED91 /* PBXTargetDependency */,
+			);
+			name = OmikroniOSAppUITests;
+			productName = OmikroniOSAppUITests;
+			productReference = B53D2B911D3CECE3008EED91 /* OmikroniOSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53D2B6A1D3CECE3008EED91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = io.omikron;
+				TargetAttributes = {
+					B53D2B711D3CECE3008EED91 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B53D2B851D3CECE3008EED91 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B53D2B711D3CECE3008EED91;
+					};
+					B53D2B901D3CECE3008EED91 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B53D2B711D3CECE3008EED91;
+					};
+				};
+			};
+			buildConfigurationList = B53D2B6D1D3CECE3008EED91 /* Build configuration list for PBXProject "OmikroniOSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B53D2B691D3CECE3008EED91;
+			productRefGroup = B53D2B731D3CECE3008EED91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B53D2B711D3CECE3008EED91 /* OmikroniOSApp */,
+				B53D2B851D3CECE3008EED91 /* OmikroniOSAppTests */,
+				B53D2B901D3CECE3008EED91 /* OmikroniOSAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53D2B701D3CECE3008EED91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53D2B801D3CECE3008EED91 /* LaunchScreen.storyboard in Resources */,
+				B53D2B7D1D3CECE3008EED91 /* Assets.xcassets in Resources */,
+				B53D2B7B1D3CECE3008EED91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D2B841D3CECE3008EED91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D2B8F1D3CECE3008EED91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53D2B6E1D3CECE3008EED91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53D2B781D3CECE3008EED91 /* ViewController.swift in Sources */,
+				B53D2B761D3CECE3008EED91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D2B821D3CECE3008EED91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53D2B8B1D3CECE3008EED91 /* OmikroniOSAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D2B8D1D3CECE3008EED91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53D2B961D3CECE3008EED91 /* OmikroniOSAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B53D2B881D3CECE3008EED91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53D2B711D3CECE3008EED91 /* OmikroniOSApp */;
+			targetProxy = B53D2B871D3CECE3008EED91 /* PBXContainerItemProxy */;
+		};
+		B53D2B931D3CECE3008EED91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53D2B711D3CECE3008EED91 /* OmikroniOSApp */;
+			targetProxy = B53D2B921D3CECE3008EED91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B53D2B791D3CECE3008EED91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53D2B7A1D3CECE3008EED91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B53D2B7E1D3CECE3008EED91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53D2B7F1D3CECE3008EED91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B53D2B981D3CECE3008EED91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B53D2B991D3CECE3008EED91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B53D2B9B1D3CECE3008EED91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OmikroniOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.project.omikron.OmikroniOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B53D2B9C1D3CECE3008EED91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OmikroniOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.project.omikron.OmikroniOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B53D2B9E1D3CECE3008EED91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OmikroniOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.project.omikron.OmikroniOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmikroniOSApp.app/OmikroniOSApp";
+			};
+			name = Debug;
+		};
+		B53D2B9F1D3CECE3008EED91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OmikroniOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.project.omikron.OmikroniOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmikroniOSApp.app/OmikroniOSApp";
+			};
+			name = Release;
+		};
+		B53D2BA11D3CECE3008EED91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OmikroniOSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.project.omikron.OmikroniOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OmikroniOSApp;
+			};
+			name = Debug;
+		};
+		B53D2BA21D3CECE3008EED91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OmikroniOSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.project.omikron.OmikroniOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OmikroniOSApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53D2B6D1D3CECE3008EED91 /* Build configuration list for PBXProject "OmikroniOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53D2B981D3CECE3008EED91 /* Debug */,
+				B53D2B991D3CECE3008EED91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53D2B9A1D3CECE3008EED91 /* Build configuration list for PBXNativeTarget "OmikroniOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53D2B9B1D3CECE3008EED91 /* Debug */,
+				B53D2B9C1D3CECE3008EED91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B53D2B9D1D3CECE3008EED91 /* Build configuration list for PBXNativeTarget "OmikroniOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53D2B9E1D3CECE3008EED91 /* Debug */,
+				B53D2B9F1D3CECE3008EED91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B53D2BA01D3CECE3008EED91 /* Build configuration list for PBXNativeTarget "OmikroniOSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53D2BA11D3CECE3008EED91 /* Debug */,
+				B53D2BA21D3CECE3008EED91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B53D2B6A1D3CECE3008EED91 /* Project object */;
+}
